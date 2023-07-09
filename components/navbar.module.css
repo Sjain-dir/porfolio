@@ -1,0 +1,23 @@
+.NavbarMainDiv {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 200px;
+       
+}
+
+.NavbarMainDiv div {
+  text-transform: capitalize;
+  display: flex;
+  gap: 20px;
+}
+
+@media only screen and (max-width: 800px){
+  .NavbarMainDiv {
+    flex-direction: column;
+    padding: 30px;
+    align-items: flex-start;
+  }
+  
+  
+}

@@ -1,0 +1,26 @@
+.FooterMainDiv {
+    bottom: 0;
+    height: 200px;
+    width: 100%;
+}
+
+.FooterHr {
+    height: 2px;
+    border-width: 0;
+    color: gray;
+    background-color: gray;
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.FooterComponentDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+
+.FooterComponentDiv div {
+    margin: 10%;
+}

@@ -1,0 +1,41 @@
+.aboutdiv {
+    display: flex;
+
+    transition: all 0.5s ease;
+}
+
+.aboutdiv>div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+
+}
+
+.abouttext {
+    border-radius: 20px;
+    background-color: #181a1b;
+    border: #776e62 1px solid;
+    color: #e8e6e3;
+    padding: 20px;
+
+}
+
+.image {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: #776e62 3px solid;
+}
+
+
+@media only screen and (max-width: 1200px) {
+    .aboutdiv {
+        flex-direction: column-reverse;
+    }
+
+    .abouttext {
+        transform: translateY(-50px);
+    }
+}

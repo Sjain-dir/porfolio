@@ -1,0 +1,22 @@
+.MainDiv {
+    display: flex;
+    /* border : white 1px solid; */
+    gap :70px;
+}
+
+.MainDiv img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+.certDetails {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+
+.MainDiv h1 {
+    font-size: x-large;
+    font-weight: bold;
+}
