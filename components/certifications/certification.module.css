@@ -2,12 +2,13 @@
     display: flex;
     /* border : white 1px solid; */
     gap :70px;
+    transition: all 0.5s ease;
 }
 
 .MainDiv img {
     width: 150px;
     height: 150px;
-    object-fit: cover;
+    object-fit: contain;
 }
 .certDetails {
     display: flex;
@@ -19,4 +20,10 @@
 .MainDiv h1 {
     font-size: x-large;
     font-weight: bold;
+}
+
+@media only screen and (max-width: 800px){
+    .MainDiv {
+        gap : 20px;
+    }
 }

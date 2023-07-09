@@ -9,3 +9,11 @@ body {
   color: #e8e6e3;
   margin : 0px 10%;
 }
+
+@media only screen and (max-width: 800px){
+  body {
+    margin: 0px 5% ;
+  }
+  
+  
+}
