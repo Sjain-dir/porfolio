@@ -1,0 +1,13 @@
+.mdxBody {
+    /* position: relative; */
+    /* align-items: center; */
+
+    /* background-color: olive; */
+    /* left: 50%; */
+    display: flex;
+    justify-content: center;
+}
+
+.mdx {
+    width: 720px;
+}

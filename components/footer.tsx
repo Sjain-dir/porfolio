@@ -2,7 +2,6 @@ import React from 'react'
 import styles from './footer.module.css'
 
 function footer() {
-  console.log(styles)
   return (
     <div className={styles.FooterMainDiv}>
         <div>
